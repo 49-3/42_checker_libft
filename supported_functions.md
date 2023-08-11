@@ -54,6 +54,7 @@
 
 ## Addtional part
 
+- ft_countwords
 - ft_realloc
 - ft_concharset
 - ft_isblank
