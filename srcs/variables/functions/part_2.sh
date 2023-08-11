@@ -26,7 +26,7 @@ Part2_func=(
 	'ft_strjoin'	\
 	'ft_strmapi'	\
 	'ft_strtrim'	\
-	'ft_strsub'		\
+	'ft_substr'		\
 )
 
 Part2_func_authorized=(

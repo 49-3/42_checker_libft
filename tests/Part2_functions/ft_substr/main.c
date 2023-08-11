@@ -6,7 +6,7 @@
 /*   By: daribeir <na.3@laposte.net>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/28 12:35:18 by jtoty             #+#    #+#             */
-/*   Updated: 2023/08/11 03:03:13 by daribeir         ###   ########.fr       */
+/*   Updated: 2023/08/11 07:49:10 by daribeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static void		check_substr(char *str, int start, int len)
 {
 	char	*substr;
 
-	if (!(substr = ft_strsub(str, start, len)))
+	if (!(substr = ft_substr(str, start, len)))
 		ft_print_result("NULL");
 	else
 		ft_print_result(substr);
