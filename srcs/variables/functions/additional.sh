@@ -17,6 +17,7 @@
 ###################################################
 
 Additional_func=(
+    'ft_concharset'			\
     'ft_realloc'			\
 	'ft_isblank'			\
 	'ft_iscntrl'			\
@@ -62,6 +63,7 @@ Additional_func=(
 )
 
 Additional_func_authorized=(
+    '0' \
     '1' \
 	'0'	\
 	'0'	\
@@ -107,6 +109,7 @@ Additional_func_authorized=(
 )
 
 Additional_func_activation=(
+    '0' \
     '0' \
 	'0'	\
 	'0'	\
