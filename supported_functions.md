@@ -54,6 +54,7 @@
 
 ## Addtional part
 
+- ft_realloc
 - ft_isblank
 - ft_iscntrl
 - ft_isgraph
