@@ -6,7 +6,7 @@
 /*   By: daribeir <na.3@laposte.net>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/28 15:27:54 by jtoty             #+#    #+#             */
-/*   Updated: 2023/08/11 17:26:45 by daribeir         ###   ########.fr       */
+/*   Updated: 2023/08/11 17:48:50 by daribeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,12 @@ int			main(int argc, const char *argv[])
 	if (argc == 1)
 		return (0);
 	else if ((arg = atoi(argv[1])) == 1)
-		ft_print_result(ft_concharset("k", "k"));
+		ft_print_result(ft_concharset('k', "k"));
 	else if (arg == 2)
-		ft_print_result(ft_concharset("s", "ksk"));
+		ft_print_result(ft_concharset('s', "ksk"));
 	else if (arg == 3)
-		ft_print_result(ft_concharset(" ", "k s k"));
+		ft_print_result(ft_concharset(' ', "k s k"));
 	else if (arg == 4)
-		ft_print_result(ft_concharset("k", " s "));
+		ft_print_result(ft_concharset('k', " s "));
 	return (0);
 }
